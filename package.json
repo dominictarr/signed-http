@@ -1,0 +1,24 @@
+{
+  "name": "signed-http",
+  "description": "use joyent's http-signature protocol",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/signed-http",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/signed-http.git"
+  },
+  "dependencies": {
+    "shasum": "~1.0.0",
+    "request": "~2.22.0",
+    "stream-to-pull-stream": "~1.2.2",
+    "pull-stream": "~2.20.0"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}

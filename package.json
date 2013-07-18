@@ -1,7 +1,7 @@
 {
   "name": "signed-http",
   "description": "use joyent's http-signature protocol",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/dominictarr/signed-http",
   "repository": {
     "type": "git",

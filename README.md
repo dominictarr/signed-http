@@ -5,8 +5,8 @@ Use joyent's http signature scheme for http auth.
 [![travis](https://travis-ci.org/dominictarr/hello-http-signature.png?branch=master)
 ](https://travis-ci.org/dominictarr/hello-http-signature)
 
-[![testling](http://ci.testling.com/dominictarr/hello-http-signature.png)
-](http://ci.testling.com/dominictarr/hello-http-signature)
+see [http-signature](https://npmjs.org/package/http-signature)
+and [http-signature spec](https://github.com/joyent/node-http-signature/blob/master/http_signing.md)
 
 Provides a http middleware and a few small helpers.
 `signed-http` will sign the hash of the body by default,
